@@ -7,7 +7,7 @@ import 'package:uniattendmovil/models/licencia_model.dart';
 
 
 class AsistenciaService {
-  static const String baseUrl = "http://10.0.2.2:8080";
+  static const String baseUrl = "http://68.183.122.161:8080";
   final storage = FlutterSecureStorage();
 
   Future<AsistenciaE?> getAsistenciaHoy(int programacionHorarioId) async {
