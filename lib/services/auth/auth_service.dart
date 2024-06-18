@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:uniattendmovil/models/user_model.dart';
 
 class AuthService {
-  final String baseUrl = "http://10.0.2.2:8080";
+  final String baseUrl = "http://68.183.122.161:8080";
   final storage = FlutterSecureStorage();
 
   Future<String?> login(String email, String password) async {
