@@ -8,7 +8,7 @@ class LicenciaService {
   final storage = FlutterSecureStorage();
 
   Future<void> guardarLicencia(Map<String, dynamic> registroLicencia) async {
-    final baseUrl = "http://10.0.2.2:8080"; // Ajusta la URL base según tu configuración
+    final baseUrl = "http://68.183.122.161:8080"; // Ajusta la URL base según tu configuración
     final token = await storage.read(key: 'token'); // Debes obtener el token de tu almacenamiento seguro
 
     final url = Uri.parse('$baseUrl/adminuser/licencia/guardar');
