@@ -4,7 +4,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:uniattendmovil/models/programacion_model.dart';
 
 class ProgramacionService {
-  static const String baseUrl = "http://10.0.2.2:8080";
+  static const String baseUrl = "http://68.183.122.161:8080";
   final storage = FlutterSecureStorage();
 
   Future<List<Programacion>> listarProgramacionesUsuario() async {
